@@ -9,20 +9,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using AppSettings.Loader.MVC;
 
 namespace AppSettings.Loader.Example.Mvc
 {
 	public class Startup
 	{
-		public Startup(IHostingEnvironment env)
+		public Startup(IConfiguration configuration)
 		{
-			var builder = new ConfigurationBuilder()
-				.SetBasePath(env.ContentRootPath)
-				.AddJsonFile("appsettings.json", false, true)
-				.AddJsonFile($"appsettings.{env.EnvironmentName}.json", true)
-				.AddAppSettingsJsonFile($"Configs/AppSettings.{env.EnvironmentName}.json")
-				.AddEnvironmentVariables();
-			Configuration = builder.Build();
+			Configuration = configuration;
 		}
 
 		public IConfiguration Configuration { get; }
@@ -40,7 +35,7 @@ namespace AppSettings.Loader.Example.Mvc
 			{
 				app.UseDeveloperExceptionPage();
 			}
-
+			app.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json");
 			app.UseMvc();
 		}
 	}

@@ -11,14 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppSettings.Loader")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AppSettings.Loader.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("wangzelin")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppSettings.Loader")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppSettings.Loader")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("AppSettings.Loader.MVC")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AppSettings.Loader.MVC")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

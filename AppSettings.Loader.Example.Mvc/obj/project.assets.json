@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AppSettings.Loader/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false,
+            "ppOutputPath": "Configs/AppSettings.cs"
+          }
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4727,23 +4748,35 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "AppSettings.Loader/1.0.0": {
+      "AppSettings.Loader.MVC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0",
-          "Newtonsoft.Json": "10.0.3"
+          "AppSettings.Loader": "1.0.1",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0"
         },
         "compile": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
+          "bin/placeholder/AppSettings.Loader.MVC.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
+          "bin/placeholder/AppSettings.Loader.MVC.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "AppSettings.Loader/1.0.1": {
+      "sha512": "nbLUSnFocmNGR4w/JR7opK4b08kSgmBN3i5nEmZZ5+dx9EnEeznPV0P64E7ONbMBOnwD2v0uyEYy69XhKKrUhQ==",
+      "type": "package",
+      "path": "appsettings.loader/1.0.1",
+      "files": [
+        "appsettings.loader.1.0.1.nupkg.sha512",
+        "appsettings.loader.nuspec",
+        "content/Configs/AppSettings.cs.pp",
+        "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp",
+        "lib/netstandard2.0/AppSettings.Loader.dll"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -12522,15 +12555,16 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "AppSettings.Loader/1.0.0": {
+    "AppSettings.Loader.MVC/1.0.0": {
       "type": "project",
-      "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
-      "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
+      "path": "../AppSettings.Loader.MVC/AppSettings.Loader.MVC.csproj",
+      "msbuildProject": "../AppSettings.Loader.MVC/AppSettings.Loader.MVC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AppSettings.Loader >= 1.0.0",
+      "AppSettings.Loader >= 1.0.1",
+      "AppSettings.Loader.MVC >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12571,8 +12605,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj": {
-              "projectPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj"
+            "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader.MVC\\AppSettings.Loader.MVC.csproj": {
+              "projectPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader.MVC\\AppSettings.Loader.MVC.csproj"
             }
           }
         }
@@ -12594,6 +12628,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "AppSettings.Loader": {
+            "target": "Package",
+            "version": "1.0.1"
           }
         },
         "imports": [

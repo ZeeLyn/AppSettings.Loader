@@ -3,6 +3,8 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.runtimeconfig.dev.json
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.pdb
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.csprojResolveAssemblyReference.cache
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.csproj.CoreCompileInputs.cache
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.AssemblyInfoInputs.cache
