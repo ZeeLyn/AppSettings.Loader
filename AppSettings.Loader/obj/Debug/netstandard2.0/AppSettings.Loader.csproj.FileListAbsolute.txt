@@ -1,0 +1,9 @@
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Debug\netstandard2.0\AppSettings.Loader.deps.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Debug\netstandard2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.csprojResolveAssemblyReference.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.csproj.CoreCompileInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.AssemblyInfoInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.AssemblyInfo.cs
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Debug\netstandard2.0\AppSettings.Loader.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Debug\netstandard2.0\AppSettings.Loader.pdb

@@ -1,0 +1,10 @@
+
+*.dll
+*.pdb
+*.nuspec
+*.cache
+*.user
+*.nupkg
+*.props
+*.targets
+*.CopyComplete

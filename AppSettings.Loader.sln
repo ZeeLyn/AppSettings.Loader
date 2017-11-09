@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettings.Loader", "AppSettings.Loader\AppSettings.Loader.csproj", "{D6292F2B-544F-462E-81BB-D8E4CC5D1CF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettings.Loader.Example", "AppSettings.Loader.Example\AppSettings.Loader.Example.csproj", "{8CAEA3B5-6713-4844-9CDF-F8BCEF8B72E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6292F2B-544F-462E-81BB-D8E4CC5D1CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6292F2B-544F-462E-81BB-D8E4CC5D1CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6292F2B-544F-462E-81BB-D8E4CC5D1CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6292F2B-544F-462E-81BB-D8E4CC5D1CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAEA3B5-6713-4844-9CDF-F8BCEF8B72E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAEA3B5-6713-4844-9CDF-F8BCEF8B72E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAEA3B5-6713-4844-9CDF-F8BCEF8B72E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAEA3B5-6713-4844-9CDF-F8BCEF8B72E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {481E13D9-BBBF-41A1-9CC5-28DD0FF0F84C}
+	EndGlobalSection
+EndGlobal

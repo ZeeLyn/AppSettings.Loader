@@ -1,0 +1,11 @@
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.deps.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.runtimeconfig.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.runtimeconfig.dev.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.csprojResolveAssemblyReference.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.csproj.CoreCompileInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.AssemblyInfoInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.AssemblyInfo.cs
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.pdb
