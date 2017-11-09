@@ -6,4 +6,3 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSe
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.AssemblyInfo.cs
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.pdb
-F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.csprojResolveAssemblyReference.cache

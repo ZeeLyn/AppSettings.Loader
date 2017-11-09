@@ -14,3 +14,6 @@
 *.ide-shm
 *.ide-wal
 .vs/config/applicationhost.config
+AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.AssemblyInfo.cs
+AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.csproj.FileListAbsolute.txt
+AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.AssemblyInfo.cs
