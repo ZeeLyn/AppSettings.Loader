@@ -23,7 +23,7 @@ static void Main(string[] args)
 }
 ```
 
-## 读取
+## 与json文件映射
 ```csharp
 public class AppSettings
 {
@@ -35,11 +35,11 @@ public class AppSettings
 		SettingsLoader<AppSettings>.Rest();
 	}
 
-
-
 	public int Version { get; set; }
 }
-  
-  AppSettings.Get.Version;
+```
+## 使用
+```csharp
+AppSettings.Get.Version;
 ```
 
