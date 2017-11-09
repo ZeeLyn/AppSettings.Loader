@@ -8,3 +8,9 @@
 *.props
 *.targets
 *.CopyComplete
+*.lock
+.vs/AppSettings.Loader/v15/.suo
+*.ide
+*.ide-shm
+*.ide-wal
+.vs/config/applicationhost.config

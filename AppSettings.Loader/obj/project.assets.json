@@ -3192,11 +3192,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\新建文件夹\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj",
+      "projectUniqueName": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj",
       "projectName": "AppSettings.Loader",
-      "projectPath": "F:\\GitHub\\新建文件夹\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj",
+      "projectPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj",
       "packagesPath": "C:\\Users\\OWEN\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\新建文件夹\\AppSettings.Loader\\AppSettings.Loader\\obj\\",
+      "outputPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

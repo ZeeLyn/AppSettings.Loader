@@ -1,4 +1,6 @@
-﻿namespace AppSettings.Loader
+﻿using System;
+
+namespace AppSettings.Loader
 {
 
 
@@ -6,8 +8,10 @@
 	{
 		protected internal static string JsonPath { get; private set; } = "appsettings.json";
 
-		public static void RegisterSettings(string jsonpath)
+		public static void BindJsonFile(string jsonpath)
 		{
+			if (string.IsNullOrWhiteSpace(jsonpath))
+				throw new ArgumentNullException("json路路径不能为空");
 			JsonPath = jsonpath;
 		}
 	}

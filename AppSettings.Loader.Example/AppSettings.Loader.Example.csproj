@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper.Repo" Version="1.0.0" />
+    <ProjectReference Include="..\AppSettings.Loader\AppSettings.Loader.csproj" />
   </ItemGroup>
 
 </Project>
