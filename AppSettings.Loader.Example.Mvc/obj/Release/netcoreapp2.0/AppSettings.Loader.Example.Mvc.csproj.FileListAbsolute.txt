@@ -4,3 +4,10 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Release\netcorea
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.pdb
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.csprojResolveAssemblyReference.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.deps.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.runtimeconfig.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.runtimeconfig.dev.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.MVC.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.MVC.pdb
