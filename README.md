@@ -3,7 +3,7 @@ Json配置加载器
 
 默认配置文件的目录是项目的根目录，文件名appsettings.json
 
-
+## 配置
 ```csharp
 public Startup(IHostingEnvironment env)
 		{
