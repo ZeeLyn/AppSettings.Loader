@@ -5,42 +5,41 @@ Json配置加载器
 
 ## 配置
 ```csharp
-public Startup(IHostingEnvironment env)
-		{
-			var builder = new ConfigurationBuilder()
-				.SetBasePath(env.ContentRootPath)
-				.AddJsonFile("appsettings.json", false, true)
-				.AddJsonFile($"appsettings.{env.EnvironmentName}.json", true)
-				.AddConfig($"Configs/AppSettings.{env.EnvironmentName}.json")
-				.AddEnvironmentVariables();
-			Configuration = builder.Build();
-		}
+public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+{
+	if (env.IsDevelopment())
+	{
+		app.UseDeveloperExceptionPage();
+	}
+	app.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json");
+	app.UseMvc();
+}
     
     
     
-    static void Main(string[] args)
-		{
-			AppSettingsRegister.BindJsonFile("appsettings.json");
-		}
+static void Main(string[] args)
+{
+	AppSettingsRegister.BindJsonFile("appsettings.json");
+}
 ```
 
-## 读取
+## 与json文件映射
 ```csharp
 public class AppSettings
+{
+	[JsonIgnore]
+	public static AppSettings Get => SettingsLoader<AppSettings>.Get();
+
+	public static void Rest()
 	{
-		[JsonIgnore]
-		public static AppSettings Get => SettingsLoader<AppSettings>.Get();
-
-		public static void Rest()
-		{
-			SettingsLoader<AppSettings>.Rest();
-		}
-
-
-
-		public int Version { get; set; }
+		SettingsLoader<AppSettings>.Rest();
 	}
-  
-  AppSettings.Get.Version;
+
+	public int Version { get; set; }
+}
+```
+## 使用
+```csharp
+AppSettings.Get.Version;
 ```
 
