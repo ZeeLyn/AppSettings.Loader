@@ -3,7 +3,7 @@ Json配置加载器
 
 默认配置文件的目录是项目的根目录，文件名appsettings.json
 
-## 配置
+## 自定义json文件路径
 
 mvc配置方法
 ```csharp
