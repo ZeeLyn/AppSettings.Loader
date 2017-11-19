@@ -6,3 +6,12 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSe
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.AssemblyInfo.cs
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.pdb
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Release\netstandard2.0\AppSettings.Loader.deps.json
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Release\netstandard2.0\AppSettings.Loader.dll
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\bin\Release\netstandard2.0\AppSettings.Loader.pdb
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.csprojResolveAssemblyReference.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.csproj.CoreCompileInputs.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.AssemblyInfoInputs.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.AssemblyInfo.cs
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.dll
+E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.pdb
