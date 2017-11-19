@@ -822,7 +822,7 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "AppSettings.Loader/1.0.1": {
+      "AppSettings.Loader/2.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3570,7 +3570,7 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "AppSettings.Loader/1.0.1": {
+    "AppSettings.Loader/2.0.0": {
       "type": "project",
       "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
       "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
@@ -3578,7 +3578,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AppSettings.Loader >= 1.0.1",
+      "AppSettings.Loader >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },

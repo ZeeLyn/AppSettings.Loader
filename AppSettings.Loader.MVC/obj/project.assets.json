@@ -2,10 +2,9 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "AppSettings.Loader/1.0.1": {
+      "AppSettings.Loader/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0",
           "Newtonsoft.Json": "10.0.3"
         },
         "compile": {
@@ -73,30 +72,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/2.0.0": {
@@ -759,12 +734,12 @@
     }
   },
   "libraries": {
-    "AppSettings.Loader/1.0.1": {
-      "sha512": "nbLUSnFocmNGR4w/JR7opK4b08kSgmBN3i5nEmZZ5+dx9EnEeznPV0P64E7ONbMBOnwD2v0uyEYy69XhKKrUhQ==",
+    "AppSettings.Loader/2.0.0": {
+      "sha512": "H2nNs3A/6ezlZ3rB61hIp4JVrVyPW6d2w0QZOmFUEEFbBv8EtuCff79swiJRQOGYwJT4ipTnmKzKv+yNssZFEA==",
       "type": "package",
-      "path": "appsettings.loader/1.0.1",
+      "path": "appsettings.loader/2.0.0",
       "files": [
-        "appsettings.loader.1.0.1.nupkg.sha512",
+        "appsettings.loader.2.0.0.nupkg.sha512",
         "appsettings.loader.nuspec",
         "content/Configs/AppSettings.cs.pp",
         "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp",
@@ -848,28 +823,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "Microsoft.Extensions.Configuration/2.0.0": {
-      "sha512": "SsI4RqI8EH00+cYO96tbftlh87sNUv1eeyuBU1XZdQkG0RrHAOjWgl7P0FoLeTSMXJpOnfweeOWj2d1/5H3FxA==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration/2.0.0",
-      "files": [
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.2.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
-      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
-      "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
-      "files": [
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/2.0.0": {
@@ -3283,7 +3236,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "AppSettings.Loader >= 1.0.1",
+      "AppSettings.Loader >= 2.0.0",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.0.0",
       "NETStandard.Library >= 2.0.0"
     ]
@@ -3346,7 +3299,7 @@
           },
           "AppSettings.Loader": {
             "target": "Package",
-            "version": "1.0.1"
+            "version": "2.0.0"
           }
         },
         "imports": [

@@ -2,10 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "AppSettings.Loader/1.0.1": {
+      "AppSettings.Loader/2.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0",
           "Newtonsoft.Json": "10.0.3"
         },
         "compile": {
@@ -4752,7 +4751,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AppSettings.Loader": "1.0.1",
+          "AppSettings.Loader": "2.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.0.0"
         },
         "compile": {
@@ -4765,12 +4764,12 @@
     }
   },
   "libraries": {
-    "AppSettings.Loader/1.0.1": {
-      "sha512": "nbLUSnFocmNGR4w/JR7opK4b08kSgmBN3i5nEmZZ5+dx9EnEeznPV0P64E7ONbMBOnwD2v0uyEYy69XhKKrUhQ==",
+    "AppSettings.Loader/2.0.0": {
+      "sha512": "H2nNs3A/6ezlZ3rB61hIp4JVrVyPW6d2w0QZOmFUEEFbBv8EtuCff79swiJRQOGYwJT4ipTnmKzKv+yNssZFEA==",
       "type": "package",
-      "path": "appsettings.loader/1.0.1",
+      "path": "appsettings.loader/2.0.0",
       "files": [
-        "appsettings.loader.1.0.1.nupkg.sha512",
+        "appsettings.loader.2.0.0.nupkg.sha512",
         "appsettings.loader.nuspec",
         "content/Configs/AppSettings.cs.pp",
         "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp",
@@ -12563,7 +12562,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AppSettings.Loader >= 1.0.1",
+      "AppSettings.Loader >= 2.0.0",
       "AppSettings.Loader.MVC >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12630,7 +12629,7 @@
           },
           "AppSettings.Loader": {
             "target": "Package",
-            "version": "1.0.1"
+            "version": "2.0.0"
           }
         },
         "imports": [
