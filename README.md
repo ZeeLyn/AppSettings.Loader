@@ -25,16 +25,8 @@ static void Main(string[] args)
 
 ## 与json文件映射
 ```csharp
-public class AppSettings
+public class AppSettings : AppSettingLoader<AppSettings>
 {
-	[JsonIgnore]
-	public static AppSettings Get => SettingsLoader<AppSettings>.Get();
-
-	public static void Rest()
-	{
-		SettingsLoader<AppSettings>.Rest();
-	}
-
 	public int Version { get; set; }
 }
 ```
