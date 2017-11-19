@@ -4,12 +4,12 @@ using Newtonsoft.Json;
 
 namespace AppSettings.Loader
 {
-	public class SettingsLoader<T>
+	public class AppSettingsReader<T>
 	{
 		private static readonly object Lock = new object();
 		private static T Instance { get; set; }
 
-		private SettingsLoader()
+		private AppSettingsReader()
 		{
 		}
 		public static T Get()

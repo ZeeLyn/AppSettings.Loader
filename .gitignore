@@ -17,3 +17,5 @@
 AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.AssemblyInfo.cs
 AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.csproj.FileListAbsolute.txt
 AppSettings.Loader/obj/Release/netstandard2.0/AppSettings.Loader.AssemblyInfo.cs
+AppSettings.Loader.Example/bin/Debug/netcoreapp2.0/AppSettings.Loader.Example.deps.json
+AppSettings.Loader.Example.Mvc/obj/Debug/netcoreapp2.0/NuGet/FAB31960AE34ADAA4A2F516C10D4C07C97FCF883/AppSettings.Loader/1.0.1/Configs/AppSettings.cs

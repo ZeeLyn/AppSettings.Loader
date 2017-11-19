@@ -11,3 +11,16 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.pdb
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.pdb
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.deps.json
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.runtimeconfig.json
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.runtimeconfig.dev.json
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.dll
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.pdb
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.dll
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\bin\Debug\netcoreapp2.0\AppSettings.Loader.pdb
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.csprojResolveAssemblyReference.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.csproj.CoreCompileInputs.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.AssemblyInfoInputs.cache
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.AssemblyInfo.cs
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.dll
+E:\GitHub\AppSettings.Loader\AppSettings.Loader.Example\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.pdb
