@@ -13,7 +13,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 	{
 		app.UseDeveloperExceptionPage();
 	}
-	app.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json");
+	app.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json",reloadOnChange:true);
 	app.UseMvc();
 }
 ```
@@ -22,7 +22,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 ```csharp
 static void Main(string[] args)
 {
-	AppSettingsRegister.BindJsonFile("appsettings.json");
+	AppSettingsRegister.BindJsonFile("appsettings.json",reloadOnChange:true);
 }
 ```
 
