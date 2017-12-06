@@ -745,7 +745,7 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "AppSettings.Loader/2.0.0": {
+      "AppSettings.Loader/2.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3282,7 +3282,7 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "AppSettings.Loader/2.0.0": {
+    "AppSettings.Loader/2.0.1": {
       "type": "project",
       "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
       "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
@@ -3290,7 +3290,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "AppSettings.Loader >= 2.0.0",
+      "AppSettings.Loader >= 2.0.1",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.0.0",
       "NETStandard.Library >= 2.0.0"
     ]
@@ -3300,7 +3300,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },

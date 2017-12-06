@@ -11,3 +11,5 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcorea
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.Example.Mvc.pdb
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.MVC.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.MVC.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Release\netcoreapp2.0\AppSettings.Loader.pdb
