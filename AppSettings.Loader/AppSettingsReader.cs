@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
+using Microsoft.Extensions.FileProviders;
 using Newtonsoft.Json;
 
 namespace AppSettings.Loader
@@ -12,6 +14,13 @@ namespace AppSettings.Loader
 		private AppSettingsReader()
 		{
 		}
+
+		static AppSettingsReader()
+		{
+			if (AppSettingsRegister.ReloadOnChange)
+				FileManager.AddChangeListen(AppSettingsRegister.JsonPath, ReadSettings);
+		}
+
 		public static T Get()
 		{
 			if (Instance != null)
@@ -19,7 +28,7 @@ namespace AppSettings.Loader
 			lock (Lock)
 			{
 				if (Instance == null)
-					Instance = ReadSettings();
+					ReadSettings();
 			}
 			return Instance;
 		}
@@ -29,12 +38,12 @@ namespace AppSettings.Loader
 			Instance = default;
 		}
 
-		private static T ReadSettings()
+		private static void ReadSettings()
 		{
 			var path = Path.Combine(Directory.GetCurrentDirectory(), AppSettingsRegister.JsonPath);
 			if (!File.Exists(path))
-				throw new FileNotFoundException($"未找到配置文件:{AppSettingsRegister.JsonPath}");
-			return JsonConvert.DeserializeObject<T>(File.ReadAllText(path, Encoding.UTF8));
+				throw new FileNotFoundException($"未找到配置文件:{path}");
+			Instance = JsonConvert.DeserializeObject<T>(File.ReadAllText(path, Encoding.UTF8));
 		}
 	}
 }

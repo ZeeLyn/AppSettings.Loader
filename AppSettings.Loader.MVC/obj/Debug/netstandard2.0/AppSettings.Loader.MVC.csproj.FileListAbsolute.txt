@@ -1,0 +1,11 @@
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\bin\Debug\netstandard2.0\AppSettings.Loader.MVC.deps.json
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\bin\Debug\netstandard2.0\AppSettings.Loader.MVC.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\bin\Debug\netstandard2.0\AppSettings.Loader.MVC.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\bin\Debug\netstandard2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\bin\Debug\netstandard2.0\AppSettings.Loader.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.csprojResolveAssemblyReference.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.csproj.CoreCompileInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.AssemblyInfoInputs.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.AssemblyInfo.cs
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.MVC\obj\Debug\netstandard2.0\AppSettings.Loader.MVC.pdb

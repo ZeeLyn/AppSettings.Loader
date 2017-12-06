@@ -8,17 +8,16 @@ namespace AppSettings.Loader.Example
 		{
 			AppSettingsRegister.BindJsonFile("appsettings.json");
 
-			//Console.WriteLine(AppSettingsReader<AppSettings>.Get().GetHashCode());
-			//Console.WriteLine("Hello World!");
-			//Console.WriteLine(AppSettingsReader<Cnf>.Get().GetHashCode());
-			//Console.WriteLine("Hello World!");
-			//Console.WriteLine(AppSettingsReader<AppSettings>.Get().GetHashCode());
-			//Console.WriteLine("Hello World!");
-			//Console.WriteLine(AppSettingsReader<Cnf>.Get().Code);
-
 			Console.WriteLine(AppSettings.Get.Version);
-
+			Console.WriteLine(Cnf.Get.Code);
 			//AppSettings.Get.Version;
+			var key = Console.ReadKey();
+			if (key.KeyChar == 'r')
+			{
+				Console.WriteLine();
+				Console.WriteLine(AppSettings.Get.Version);
+				Console.WriteLine(Cnf.Get.Code);
+			}
 			Console.ReadKey();
 		}
 	}

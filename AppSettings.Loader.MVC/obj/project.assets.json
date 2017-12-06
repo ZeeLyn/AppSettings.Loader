@@ -2,26 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "AppSettings.Loader/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/AppSettings.Loader.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/AppSettings.Loader.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false,
-            "ppOutputPath": "Configs/AppSettings.cs"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -72,6 +52,40 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/2.0.0": {
@@ -730,22 +744,24 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "AppSettings.Loader/2.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Physical": "2.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/AppSettings.Loader.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppSettings.Loader.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "AppSettings.Loader/2.0.0": {
-      "sha512": "H2nNs3A/6ezlZ3rB61hIp4JVrVyPW6d2w0QZOmFUEEFbBv8EtuCff79swiJRQOGYwJT4ipTnmKzKv+yNssZFEA==",
-      "type": "package",
-      "path": "appsettings.loader/2.0.0",
-      "files": [
-        "appsettings.loader.2.0.0.nupkg.sha512",
-        "appsettings.loader.nuspec",
-        "content/Configs/AppSettings.cs.pp",
-        "contentFiles/any/netstandard2.0/Configs/AppSettings.cs.pp",
-        "lib/netstandard2.0/AppSettings.Loader.dll"
-      ]
-    },
     "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
       "sha512": "pblZLY7IfNqhQ5wwGQ0vNq2mG6W5YgZI1fk7suEuwZsGxGEADNBAyNlTALM9L8nMXdvbp6aHP/t4wHrFpcL3Sw==",
       "type": "package",
@@ -823,6 +839,39 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "sha512": "Z0AK+hmLO33WAXQ5P1uPzhH7z5yjDHX/XnUefXxE//SyvCb9x4cVjND24dT5566t/yzGp8/WLD7EG9KQKZZklQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
+      "sha512": "DKO2j2socZbHNCCVEWsLVpB3AQIIzKYFNyITVeWdA1jQ829GJIQf4MUD04+1c+Q2kbK03pIKQZmEy4CGIfgDZw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
+      "sha512": "UC87vRDUB7/vSaNY/FVhbdAyRkfFBTkYmcUoglxk6TyTojhSqYaG5pZsoP4e1ZuXktFXJXJBTvK8U/QwCo0z3g==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.2.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
     "Microsoft.Extensions.Primitives/2.0.0": {
@@ -3232,6 +3281,11 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "AppSettings.Loader/2.0.0": {
+      "type": "project",
+      "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
+      "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3276,7 +3330,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj": {
+              "projectPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3295,10 +3353,6 @@
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.Http.Abstractions": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "AppSettings.Loader": {
             "target": "Package",
             "version": "2.0.0"
           }

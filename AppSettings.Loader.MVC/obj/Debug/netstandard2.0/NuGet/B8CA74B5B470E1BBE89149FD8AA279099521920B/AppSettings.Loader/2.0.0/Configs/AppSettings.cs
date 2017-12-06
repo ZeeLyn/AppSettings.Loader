@@ -1,6 +1,6 @@
-﻿using AppSettings.Loader;
+using AppSettings.Loader;
 
-namespace $rootnamespace$
+namespace AppSettings.Loader.MVC
 {
 	public class AppSettings : AppSettingLoader<AppSettings>
 	{

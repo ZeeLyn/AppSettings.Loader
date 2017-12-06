@@ -3,11 +3,13 @@ F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.runtimeconfig.dev.json
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.pdb
-F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.dll
-F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.MVC.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.MVC.pdb
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.csprojResolveAssemblyReference.cache
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.csproj.CoreCompileInputs.cache
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.AssemblyInfoInputs.cache
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.AssemblyInfo.cs
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.dll
 F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\obj\Debug\netcoreapp2.0\AppSettings.Loader.Example.Mvc.pdb
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.dll
+F:\GitHub\AppSettings.Loader\AppSettings.Loader.Example.Mvc\bin\Debug\netcoreapp2.0\AppSettings.Loader.pdb
