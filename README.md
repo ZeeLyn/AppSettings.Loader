@@ -26,7 +26,7 @@ static void Main(string[] args)
 }
 ```
 
-## 与json文件映射
+## 建立实体类与json文件映射
 ```csharp
 public class AppSetting : AppSettingLoader<AppSetting>
 {
