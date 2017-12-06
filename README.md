@@ -28,13 +28,13 @@ static void Main(string[] args)
 
 ## 与json文件映射
 ```csharp
-public class AppSettings : AppSettingLoader<AppSettings>
+public class AppSetting : AppSettingLoader<AppSetting>
 {
 	public int Version { get; set; }
 }
 ```
 ## 使用
 ```csharp
-AppSettings.Get.Version;
+AppSetting.Get.Version;
 ```
 
