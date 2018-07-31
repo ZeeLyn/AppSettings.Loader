@@ -7,14 +7,9 @@ Json配置加载器
 
 mvc配置方法
 ```csharp
-public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+public void ConfigureServices(IServiceCollection services, IHostingEnvironment env)
 {
-	if (env.IsDevelopment())
-	{
-		app.UseDeveloperExceptionPage();
-	}
-	app.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json",reloadOnChange:true);
-	app.UseMvc();
+	services.AddAppSettingsJsonFile($"appsettings.{env.EnvironmentName}.json",reloadOnChange:true);
 }
 ```
 
