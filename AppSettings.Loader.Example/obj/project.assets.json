@@ -3709,9 +3709,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader.Example\\AppSettings.Loader.Example.csproj",
       "projectName": "AppSettings.Loader.Example",
@@ -3731,7 +3728,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://1.119.132.123:8199/nuget/": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://ci.appveyor.com/nuget/fsgit-fsharp": {},
         "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
@@ -3756,7 +3752,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

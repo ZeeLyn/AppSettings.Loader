@@ -15,4 +15,4 @@ E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSe
 E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.AssemblyInfo.cs
 E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.dll
 E:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.pdb
-F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.csprojResolveAssemblyReference.cache
+F:\GitHub\AppSettings.Loader\AppSettings.Loader\obj\Release\netstandard2.0\AppSettings.Loader.csprojAssemblyReference.cache

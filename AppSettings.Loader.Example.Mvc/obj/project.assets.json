@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AppSettings.Loader/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Physical": "2.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4727,21 +4747,7 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "AppSettings.Loader/2.0.1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Physical": "2.0.0",
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
-        }
-      },
-      "AppSettings.Loader.MVC/1.0.1": {
+      "AppSettings.Loader.MVC/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -4758,6 +4764,18 @@
     }
   },
   "libraries": {
+    "AppSettings.Loader/2.0.1": {
+      "sha512": "cghBky98QHDixUbFcj5rP+IHV3iuWya3Ogn2T83X8vMPUIV3++mJacgfFg9ioGG5sDjuV99GFa7204Rtgs5A5A==",
+      "type": "package",
+      "path": "appsettings.loader/2.0.1",
+      "files": [
+        "appsettings.loader.2.0.1.nupkg.sha512",
+        "appsettings.loader.nuspec",
+        "content/Configs/AppSetting.cs.pp",
+        "contentFiles/any/netstandard2.0/Configs/AppSetting.cs.pp",
+        "lib/netstandard2.0/AppSettings.Loader.dll"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -6546,7 +6564,7 @@
       ]
     },
     "Microsoft.Extensions.Logging.Debug/2.0.0": {
-      "sha512": "29Zn5m9yb4NEP+qbeLl+7F2lDskDfrs8NbrM8eJ+k/pYE8JksRUEFxHp1bcpGSfGP9w0pMQMOKrVcwD3u5sPog==",
+      "sha512": "+GbLh4S+k9A5GKhHwRcvHEtMkjCCElPahLr7/CKVldsEPfLdDKiU+P1cUaFKLUWIImizYWVjyyN3mrCukc+HkQ==",
       "type": "package",
       "path": "microsoft.extensions.logging.debug/2.0.0",
       "files": [
@@ -8809,7 +8827,7 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
+      "sha512": "s3q3xL5NndbR/nBhn82LPb94S6yOzdTaDZudYPCw0GOKiYi6/ekbBQL+TQ743yKF70MeiashAKXZXkUL6kADuQ==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
@@ -9859,7 +9877,7 @@
       ]
     },
     "System.Net.Security/4.3.0": {
-      "sha512": "IgJKNfALqw7JRWp5LMQ5SWHNKvXVz094U6wNE3c1i8bOkMQvgBL+MMQuNt3xl9Qg9iWpj3lFxPZEY6XHmROjMQ==",
+      "sha512": "0pwXmFjEpATZdyOpcEwwaRNcwAkzH568RkiFQZjeavs4FcJoGTYy+vOxXJ6WRRVoL7A92PPaO/rYmzqsHU+Ajw==",
       "type": "package",
       "path": "system.net.security/4.3.0",
       "files": [
@@ -12536,12 +12554,7 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "AppSettings.Loader/2.0.1": {
-      "type": "project",
-      "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
-      "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
-    },
-    "AppSettings.Loader.MVC/1.0.1": {
+    "AppSettings.Loader.MVC/1.0.2": {
       "type": "project",
       "path": "../AppSettings.Loader.MVC/AppSettings.Loader.MVC.csproj",
       "msbuildProject": "../AppSettings.Loader.MVC/AppSettings.Loader.MVC.csproj"
@@ -12549,7 +12562,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "AppSettings.Loader.MVC >= 1.0.1",
+      "AppSettings.Loader.MVC >= 1.0.2",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Diagnostics >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12561,9 +12574,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader.Example.Mvc\\AppSettings.Loader.Example.Mvc.csproj",
       "projectName": "AppSettings.Loader.Example.Mvc",
@@ -12583,7 +12593,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://1.119.132.123:8199/nuget/": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://ci.appveyor.com/nuget/fsgit-fsharp": {},
         "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
@@ -12606,18 +12615,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.AspNetCore.Diagnostics": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "2.0.0"
           }
         },
         "imports": [

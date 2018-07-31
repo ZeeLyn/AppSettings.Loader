@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "AppSettings.Loader/2.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Physical": "2.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AppSettings.Loader.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/Configs/AppSetting.cs.pp": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false,
+            "ppOutputPath": "Configs/AppSetting.cs"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -118,7 +139,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -744,24 +765,22 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
-      },
-      "AppSettings.Loader/2.0.1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Physical": "2.0.0",
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppSettings.Loader.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "AppSettings.Loader/2.0.1": {
+      "sha512": "cghBky98QHDixUbFcj5rP+IHV3iuWya3Ogn2T83X8vMPUIV3++mJacgfFg9ioGG5sDjuV99GFa7204Rtgs5A5A==",
+      "type": "package",
+      "path": "appsettings.loader/2.0.1",
+      "files": [
+        "appsettings.loader.2.0.1.nupkg.sha512",
+        "appsettings.loader.nuspec",
+        "content/Configs/AppSetting.cs.pp",
+        "contentFiles/any/netstandard2.0/Configs/AppSetting.cs.pp",
+        "lib/netstandard2.0/AppSettings.Loader.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
       "sha512": "pblZLY7IfNqhQ5wwGQ0vNq2mG6W5YgZI1fk7suEuwZsGxGEADNBAyNlTALM9L8nMXdvbp6aHP/t4wHrFpcL3Sw==",
       "type": "package",
@@ -911,14 +930,13 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -1035,7 +1053,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -3281,18 +3299,13 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
-    },
-    "AppSettings.Loader/2.0.1": {
-      "type": "project",
-      "path": "../AppSettings.Loader/AppSettings.Loader.csproj",
-      "msbuildProject": "../AppSettings.Loader/AppSettings.Loader.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "AppSettings.Loader >= 2.0.1",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.0.0",
-      "NETStandard.Library >= 2.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -3300,10 +3313,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader.MVC\\AppSettings.Loader.MVC.csproj",
       "projectName": "AppSettings.Loader.MVC",
@@ -3323,18 +3333,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://1.119.132.123:8199/nuget/": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://ci.appveyor.com/nuget/fsgit-fsharp": {},
         "https://dotnet.myget.org/F/aspnetcore-master/api/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj": {
-              "projectPath": "F:\\GitHub\\AppSettings.Loader\\AppSettings.Loader\\AppSettings.Loader.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3346,15 +3351,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "NETStandard.Library": {
-            "suppressParent": "All",
+          "AppSettings.Loader": {
             "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "[2.0.1, )"
           },
           "Microsoft.AspNetCore.Http.Abstractions": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "NETStandard.Library": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.0.3, )",
+            "autoReferenced": true
           }
         },
         "imports": [
